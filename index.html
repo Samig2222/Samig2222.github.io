@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESP32 Proximity Compass</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; margin-top: 50px; }
+    #heading { font-size: 2em; margin: 20px; }
+    #rssi { font-size: 1.5em; margin: 20px; }
+  </style>
+</head>
+<body>
+  <h1>ESP32 Proximity Compass</h1>
+  <button onclick="scanBLE()">Scan for ESP32</button>
+  <div id="rssi">RSSI: --</div>
+  <div id="heading">Heading: --°</div>
+
+  <script src="app.js"></script>
+</body>
+</html>
